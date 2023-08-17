@@ -42,8 +42,7 @@ app.get("/about-me", (req, res) => {
 app.get("/about-me/hometown", (req, res) => {
   res.send(`
     <h1>South Korea</h1>
-    <p>I was born in South Korea 🌏<br/>
-    However, I was in the Universe🌌 before.</p>
+    <p>I was born in South Korea 🌏</p>
     <p>South Korea has beautiful four different seasons everywhere and many nice places to visit.</p>
     <p>But please don't visit South Korea in winter time.</p>
     <p>Curruntly, I'm studying <a href="/study/express">Express</a>.</p>
